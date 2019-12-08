@@ -57,6 +57,8 @@
   
   ### Const
   
+  >> by convention const variable name should be captilized, like: const MY_NAME = "Rapha";
+  
   ```javascript  
   if (true) {
      const name = "Mari";
