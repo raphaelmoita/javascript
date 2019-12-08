@@ -22,4 +22,14 @@ const concat = (str1, str2 = "!!!") => str1 + str2;
 
 // Params
 const concat = (...strs) => strs.reduce((str1, str2) => str1 + str2);
-``` 
+
+// inside functions
+const create = (name, age) => {
+  return {
+      name,
+      upperCaseName() {
+         return name.upperCase();
+      }
+  }
+}
+```
